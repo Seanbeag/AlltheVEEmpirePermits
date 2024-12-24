@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_StoneDrop"]</xpath>
+  <value>
+   <cooldownDays>10</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_StoneDrop"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(0,0)</uiPosition>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_StoneDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>2</favorCost>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="SteelDrop"]/minTitle</xpath>
+  <value>
+   <minTitle>Yeoman</minTitle>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="SteelDrop"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(1,0)</uiPosition>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="SteelDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>2</favorCost>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="SteelDrop"]</xpath>
+  <value>
+   <cooldownDays>10</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="SilverDrop"]/minTitle</xpath>
+  <value>
+   <minTitle>Acolyte</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="SilverDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>3</favorCost>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="SilverDrop"]</xpath>
+  <value>
+   <cooldownDays>15</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="SilverDrop"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(2,0)</uiPosition>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_GoldDrop"]</xpath>
+  <value>
+   <cooldownDays>20</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_GoldDrop"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(3,0)</uiPosition>
+  </value>
+ </Operation> 
+	
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_PlasteelDrop"]</xpath>
+  <value>
+   <cooldownDays>25</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_PlasteelDrop"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(4,0)</uiPosition>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_JadeDrop"]</xpath>
+  <value>
+   <cooldownDays>25</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_JadeDrop"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(5,0)</uiPosition>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_UraniumDrop"]</xpath>
+  <value>
+   <cooldownDays>30</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_UraniumDrop"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(6,0)</uiPosition>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="FoodDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>2</favorCost>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="FoodDrop"]</xpath>
+  <value>
+   <cooldownDays>15</cooldownDays>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_NobleFoodDrop"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>20</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_NobleFoodDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>4</favorCost>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_WoodDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>2</favorCost>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_WoodDrop"]</xpath>
+  <value>
+   <cooldownDays>8</cooldownDays>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ChemfuelDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>4</favorCost>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ChemfuelDrop"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>15</cooldownDays>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ClothDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>2</favorCost>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ClothDrop"]</xpath>
+  <value>
+   <cooldownDays>10</cooldownDays>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_SynthreadDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>4</favorCost>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_SynthreadDrop"]</xpath>
+  <value>
+   <cooldownDays>15</cooldownDays>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_DevilstrandDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>4</favorCost>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_DevilstrandDrop"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>20</cooldownDays>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HyperweaveDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>5</favorCost>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HyperweaveDrop"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>25</cooldownDays>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallLaborerTeam"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>10</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallLaborerTeam"]/minTitle</xpath>
+  <value>
+   <minTitle>Yeoman</minTitle>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallLaborerTeam"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>2</favorCost>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallLaborerGang"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>20</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallLaborerGang"]/minTitle</xpath>
+  <value>
+   <minTitle>Knight</minTitle>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallLaborerGang"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>4</favorCost>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallLaborerUnion"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>25</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallLaborerUnion"]/minTitle</xpath>
+  <value>
+   <minTitle>Praetor</minTitle>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallTechfriar"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>25</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallTechfriar"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(3,2)</uiPosition>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallTechfriar"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>5</favorCost>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallAbsolver"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>25</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallAbsolver"]/minTitle</xpath>
+  <value>
+   <minTitle>Praetor</minTitle>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallAbsolver"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>5</favorCost>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentDrop"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>15</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentDrop"]/minTitle</xpath>
+  <value>
+   <minTitle>Knight</minTitle>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>3</favorCost>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentSpacerDrop"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>25</cooldownDays>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentSpacerDrop"]/minTitle</xpath>
+  <value>
+   <minTitle>Praetor</minTitle>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentSpacerDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>5</favorCost>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidSmall"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>10</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidSmall"]/minTitle</xpath>
+  <value>
+   <minTitle>Freeholder</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidSmall"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>2</favorCost>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidLarge"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>15</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidLarge"]/minTitle</xpath>
+  <value>
+   <minTitle>Acolyte</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidLarge"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(1,3)</uiPosition>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidLarge"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>4</favorCost>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidGrand"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>25</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidGrand"]/minTitle</xpath>
+  <value>
+   <minTitle>Knight</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidGrand"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(2,3)</uiPosition>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidGrand"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>7</favorCost>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallTrooperPlatoon"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>30</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallTrooperPlatoon"]/minTitle</xpath>
+  <value>
+   <minTitle>Baron</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallTrooperPlatoon"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(3,3)</uiPosition>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallTrooperPlatoon"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>8</favorCost>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallJanissaryPlatoon"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>35</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallJanissaryPlatoon"]/minTitle</xpath>
+  <value>
+   <minTitle>Count</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallJanissaryPlatoon"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(4,3)</uiPosition>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallJanissaryPlatoon"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>9</favorCost>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallCataphractPlatoon"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>40</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallCataphractPlatoon"]/minTitle</xpath>
+  <value>
+   <minTitle>VFEE_Archcount</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallCataphractPlatoon"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(5,3)</uiPosition>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallCataphractPlatoon"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>10</favorCost>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallStellicGuards"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>45</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallStellicGuards"]/minTitle</xpath>
+  <value>
+   <minTitle>VFEE_Marquess</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallStellicGuards"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(6,3)</uiPosition>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallStellicGuards"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>45</favorCost>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallImperialRegiment"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>45</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallImperialRegiment"]/minTitle</xpath>
+  <value>
+   <minTitle>VFEE_Archduke</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallImperialRegiment"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(7,3)</uiPosition>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallImperialRegiment"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>45</favorCost>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallOrbitalStrike"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>8</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallOrbitalStrike"]/minTitle</xpath>
+  <value>
+   <minTitle>Yeoman</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallOrbitalStrike"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(0,4)</uiPosition>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallOrbitalStrike"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>3</favorCost>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallOrbitalSalvo"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>15</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallOrbitalSalvo"]/minTitle</xpath>
+  <value>
+   <minTitle>Knight</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallOrbitalSalvo"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(1,4)</uiPosition>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallOrbitalSalvo"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>6</favorCost>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallOrbitalSlicingBeam"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>25</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallOrbitalSlicingBeam"]/minTitle</xpath>
+  <value>
+   <minTitle>Baron</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallOrbitalSlicingBeam"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(2,4)</uiPosition>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallOrbitalSlicingBeam"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>9</favorCost>
+  </value>
+ </Operation>
+
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_StrikerTurretDrop"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>10</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_StrikerTurretDrop"]/minTitle</xpath>
+  <value>
+   <minTitle>Knight</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_StrikerTurretDrop"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(3,4)</uiPosition>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_StrikerTurretDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>6</favorCost>
+  </value>
+ </Operation>
+ 
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_BurnoutShieldDrop"]/cooldownDays</xpath>
+  <value>
+   <cooldownDays>12</cooldownDays>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_BurnoutShieldDrop"]/minTitle</xpath>
+  <value>
+   <minTitle>Praetor</minTitle>
+  </value>
+ </Operation>
+	
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_BurnoutShieldDrop"]/uiPosition</xpath>
+  <value>
+   <uiPosition>(4,4)</uiPosition>
+  </value>
+ </Operation>
+  
+ <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_BurnoutShieldDrop"]/royalAid/favorCost</xpath>
+  <value>
+   <favorCost>8</favorCost>
+  </value>
+ </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="CallTransportShuttle"]/cooldownDays</xpath>
+	<value>
+		<cooldownDays>5</cooldownDays>
+	</value>
+  </Operation>
+	
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="CallTransportShuttle"]/minTitle</xpath>
+	<value>
+		<minTitle>Freeholder</minTitle>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="CallTransportShuttle"]/royalAid/favorCost</xpath>
+	<value>
+		<favorCost>2</favorCost>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="CallTransportShuttle"]/uiPosition</xpath>
+	<value>
+		<uiPosition>(0,5)</uiPosition>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallEvacShuttle"]/cooldownDays</xpath>
+	<value>
+		<cooldownDays>10</cooldownDays>
+	</value>
+  </Operation>
+	
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallEvacShuttle"]/minTitle</xpath>
+	<value>
+		<minTitle>Praetor</minTitle>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallEvacShuttle"]/royalAid/favorCost</xpath>
+	<value>
+		<favorCost>7</favorCost>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallEvacShuttle"]/uiPosition</xpath>
+	<value>
+		<uiPosition>(3,5)</uiPosition>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HEShellsDrop"]/cooldownDays</xpath>
+	<value>
+		<cooldownDays>10</cooldownDays>
+	</value>
+  </Operation>
+	
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HEShellsDrop"]/minTitle</xpath>
+	<value>
+		<minTitle>Knight</minTitle>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HEShellsDrop"]/royalAid/favorCost</xpath>
+	<value>
+		<favorCost>5</favorCost>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HEShellsDrop"]/uiPosition</xpath>
+	<value>
+		<uiPosition>(7,5)</uiPosition>
+	</value>
+  </Operation>
+  
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HerbalMedDrop"]</xpath>
+  <value>
+   <cooldownDays>10</cooldownDays>
+  </value>
+ </Operation>
+	
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HerbalMedDrop"]/minTitle</xpath>
+	<value>
+		<minTitle>Freeholder</minTitle>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HerbalMedDrop"]/royalAid/favorCost</xpath>
+	<value>
+		<favorCost>5</favorCost>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HerbalMedDrop"]/uiPosition</xpath>
+	<value>
+		<uiPosition>(0,6)</uiPosition>
+	</value>
+  </Operation>
+  
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_MedDrop"]</xpath>
+  <value>
+   <cooldownDays>15</cooldownDays>
+  </value>
+ </Operation>
+	
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_MedDrop"]/minTitle</xpath>
+	<value>
+		<minTitle>Knight</minTitle>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_MedDrop"]/royalAid/favorCost</xpath>
+	<value>
+		<favorCost>5</favorCost>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_MedDrop"]/uiPosition</xpath>
+	<value>
+		<uiPosition>(1,6)</uiPosition>
+	</value>
+  </Operation>
+  
+ <Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="GlitterMedDrop"]</xpath>
+  <value>
+   <cooldownDays>25</cooldownDays>
+  </value>
+ </Operation>
+	
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="GlitterMedDrop"]/minTitle</xpath>
+	<value>
+		<minTitle>Baron</minTitle>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="GlitterMedDrop"]/royalAid/favorCost</xpath>
+	<value>
+		<favorCost>5</favorCost>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="GlitterMedDrop"]/uiPosition</xpath>
+	<value>
+		<uiPosition>(2,6)</uiPosition>
+	</value>
+  </Operation>
+  
+ <Operation Class="PatchOperationRemove">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallEvacShuttle"]/prerequisite</xpath>
+ </Operation>
+ 
+ <Operation Class="PatchOperationRemove">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidGrand"]/prerequisite</xpath>
+ </Operation>
+
+ <Operation Class="PatchOperationRemove">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallTrooperPlatoon"]/prerequisite</xpath>
+ </Operation>
+ 
+ <Operation Class="PatchOperationRemove">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallJanissaryPlatoon"]/prerequisite</xpath>
+ </Operation>
+ 
+ <Operation Class="PatchOperationRemove">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallCataphractPlatoon"]/prerequisite</xpath>
+ </Operation>
+ 
+ <Operation Class="PatchOperationRemove">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallStellicGuards"]/prerequisite</xpath>
+ </Operation>
+ 
+ <Operation Class="PatchOperationRemove">
+  <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallImperialRegiment"]/prerequisite</xpath>
+ </Operation>
+
+
+</Patch>

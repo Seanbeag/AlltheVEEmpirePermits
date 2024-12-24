@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <name>All the VFE Empire Permits</name>
+
+    <author>Seanbeag</author>
+
+    <supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	
+	<packageId>Seanbeag.AllVEEPermits</packageId>
+
+    <description>More Permits for VFE Empire</description>
+	
+  <modDependencies>
+    <li>
+      <packageId>OskarPotocki.VFE.Empire</packageId>
+      <displayName>Vanilla Factions Expanded - Empire</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+	
+	<loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+	<li>Ludeon.RimWorld.Ideology</li>
+	<li>Ludeon.RimWorld.Biotech</li>
+    <li>brrainz.harmony</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	<li>OskarPotocki.VFE.Empire</li>
+    </loadAfter>
+
+</ModMetaData>
